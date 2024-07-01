@@ -1,10 +1,14 @@
 import React from 'react'
 import Navbar from './components/Navbar'
+import Marquee from 'react-fast-marquee'
 
 export default function Home() {
   return (
     <div style={{backgroundImage:'url("./coverPic.jpg")'}} className=" h-screen w-full ">
        <div> <Navbar /> </div>
+
+       <Marquee><p className=' text-white'>This website is under maintainance. We are working on it...</p></Marquee>
+       
        <div className=' text-white text-2xl md:text-3xl ml-5 md:ml-10 mt-28'>
          <p>Grab Your Yummy</p>
          <p className=' text-yellow-600'>Meals</p>
